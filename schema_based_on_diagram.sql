@@ -47,8 +47,8 @@ CREATE TABLE invoice_items(
 
 /* Join table for medical_histories(id) & treatments(id) */
 CREATE TABLE medical_history_treatments (
-    medical_history_id INT REFERENCES medical_histories(id),
-    treatment_id INT REFERENCES treatments(id),
+    medical_history_id INT,
+    treatment_id INT,
     PRIMARY KEY (medical_history_id, treatment_id),
     FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
     FOREIGN KEY (treatment_id) REFERENCES treatments(id)
