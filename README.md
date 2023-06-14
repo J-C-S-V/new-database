@@ -1,89 +1,67 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <a href="https://unsplash.com/photos/04X1Yp9hNH8">
-    <img src="https://github.com/J-C-S-V/spacex-project/assets/109441277/67864144-6dad-4db2-9b90-ad2ca7b9e4aa" alt="logo" width="740" height="auto" /><br/>
-  </a>
-  <h1><b>Space Travelers' Hub</b></h1>
-</div>
+<!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+# 📗 Index
 
-- [📖 About the project](#about-project)
-  - [🛠 Built with](#built-with)
-    - [Tech stack](#tech-stack)
-    - [Key features](#key-features)
-  - [🚀 Live demo](#live-demo)
-- [💻 Getting started](#getting-started)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 SQL Commands Preview](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👷 Author](#author)
-- [🔭 Future features](#future-features)
+- [👥 Author](#author)
+- [🔭 Future features](#features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 About the project <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-This project is a web application that focuses on rocket reservations and mission management. It allows users to reserve rockets for upcoming missions and provides a comprehensive overview of mission details. The application is built using React.js and Redux for state management.
+# 📖 [Hospital_Data] `SQL` `PostgreSQL` <a name="about-project"></a>
+This showcase provides a concise demonstration of creating a relational database, highlighting the utilization of foreign keys and a join table formed by merging specific information of two tables.
 
-In order to provide up-to-date and relevant information to the users, this SPA integrates with the SpaceX API. By leveraging the SpaceX API, the application can fetch data related to space missions, rocket launches, astronauts, and more. This integration allows users to explore the latest launches, upcoming missions, and historical information about SpaceX's activities directly within the application.
+## 🛠 Built With <a name="built-with"></a>
 
-This project is a Single Page Application (SPA), which utilizes modern web technologies to provide a seamless and fluid user experience. By leveraging client-side rendering, the application eliminates the need for full page reloads, enabling users to navigate within the page smoothly.
-
-## 🛠 Built with <a name="built-with"></a>
-
-### Tech stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Languages and technologies</summary><br>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    </ul>
+  </details>
+
+<details>
+<summary>Database</summary>
   <ul>
-    <li><a href="#">React.js</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">Redux</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">JavaScript</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">HTML5</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">CSS3</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">Git</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">Jest</a></li>
-  </ul>
-  <ul>
-    <li><a href="#">React-testing-library</a></li>
+      <li><a href="https://www.w3schools.com/sql/">SQL</a></li>
   </ul>
 </details>
 
-### Key features <a name="key-features"></a>
+<!-- Features -->
 
-- **[Centralized state]**
-- **[REST API]**
-- **[Single Page Application]**
+### Key Features <a name="key-features"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live demo <a name="live-demo"></a>
-
-Under construction.
-<!-- - [Live Demo Link](https://j-c-s-v.github.io/webpack-to-do-list/) -->
+  - **[Storage data in the Database]** It correctly stores the data on the database and can be interacted using SQL commands. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting started <a name="getting-started"></a>
+<!-- LIVE DEMO -->
+
+## 🚀 Entity Relationship Diagram <a name="live-demo"></a>
+![image](https://github.com/VelzckC0D3/SQL_Database/assets/92229666/2bcee1dc-380f-4406-9a3e-dae2ff587c29)
+
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -91,47 +69,43 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+```sh
+ To have a computer, Internet, Keyboard and Mouse
+```
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-`git clone` https://github.com/J-C-S-V/spacex-project
-
 ### Install
 
-`npm install`
+Install this project with:
 
-### Usage
-
-`npm run start`
-
-### Run tests
-
-`npm run test`
-
-### Deployment
-
-You can deploy this project using:
-
-[Render](https://render.com/)
-
-## 👷‍♂️ Author <a name="author"></a>
-
-👷‍♂️ **Juan Sanchez**
-
-- GitHub: [Juan Sanchez](https://github.com/J-C-S-V)
-- Twitter: [Juan Sanchez](https://twitter.com/juansan0)
-- LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/)
+```sh
+  Installation is not necessary
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future features <a name="future-features"></a>
+<!-- AUTHOR -->
 
-- [ ] **[Dragons section]**
-- [ ] **[Payment methods]**
-- [ ] **[Login section]**
+## 👥 Authors <a name="author"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Alejandro Velasquez
+- [@VelzckC0D3](https://github.com/VelzckC0D3)
+- [VelzckC0D3](https://www.linkedin.com/in/velzckcode/)
+
+### Juan Sanchez
+- [J-C-S-V](https://github.com/J-C-S-V)
+- [Juan Carlos Sanchez](https://www.linkedin.com/in/sanchez-juan-carlos/)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="features"></a>
+  - **[Add more query to manage the database]** With this implementation I'll be able to have a better management of the data. 
+  - **[Integrate Back-End]** With the integration of a back-end part to this project, the data will be able to be managed and modified. 
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -141,20 +115,25 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
-If you get inspired by this project you can give us a star 🙌
+If you like this project, be pending on our profiles since we'll be doing much more! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-We would like to thank Space X for the API data 🚀
+No extra acknowledgments up to this moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/J-C-S-V/Portfolio-setup-and-mobile-first/blob/main/license.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
