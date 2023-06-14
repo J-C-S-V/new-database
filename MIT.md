@@ -1,4 +1,4 @@
-Copyright 2023, Juan Sanchez.
+Copyright 2023, Juan Sanchez & Alejandro Velasquez.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
